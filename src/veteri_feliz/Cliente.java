@@ -1,0 +1,63 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package veteri_feliz;
+
+/**
+ *
+ * @author juanj
+ */
+public class Cliente extends Familia{
+    int Numero_Cliente=0;
+
+    public Cliente(int Numero_Cliente, String Parentesco, int Cedula, String Nombre, String Apellido) {
+        super(Parentesco, Cedula, Nombre, Apellido);
+        this.Numero_Cliente = Numero_Cliente;
+    }
+
+    public Cliente() {
+    }
+
+    public int getNumero_Cliente() {
+        return Numero_Cliente;
+    }
+
+    public void setNumero_Cliente(int Numero_Cliente) {
+        this.Numero_Cliente = Numero_Cliente;
+    }
+
+    public String getParentesco() {
+        return Parentesco;
+    }
+
+    public void setParentesco(String Parentesco) {
+        this.Parentesco = Parentesco;
+    }
+
+    public int getCedula() {
+        return Cedula;
+    }
+
+    public void setCedula(int Cedula) {
+        this.Cedula = Cedula;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public void setApellido(String Apellido) {
+        this.Apellido = Apellido;
+    }
+    
+    
+}

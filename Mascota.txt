@@ -1,0 +1,2 @@
+123,Taylor,Perro,Chihuahua,Cafe,12/05/2005,15
+65,Carlos,Gato,Criollo,Negro y Cafe,12/05/2020,8
